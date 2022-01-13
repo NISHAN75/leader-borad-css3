@@ -4,6 +4,8 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
+    margin: 0;
+    padding: 0;
 }
 .container{
     background-color: #ffff;
@@ -16,6 +18,41 @@ hr {
     border: 1px solid #D1D1D1;
     margin-bottom: 27px;
 }
+/* hedder are design */
+.logo-area {
+    display: flex;
+    column-gap: 16px;
+    align-items: center;
+}
+.logo-area img {
+    height: 50px;
+    width: 40px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #562EFF;
+    padding: 10px 20px;
+}
+.nav-manu {
+    display: flex;
+}
+.nav-manu ul {
+    display: flex;
+    column-gap: 35px;
+    list-style: none;
+}
+.nav-manu ul li a {
+    color: black;
+    text-decoration: none;
+}
+.profile-img {
+    margin-left: 30px;
+}
+
+
+
+
 /* top player area css */
 main {
     display: flex;
